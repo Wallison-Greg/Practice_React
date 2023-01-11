@@ -1,0 +1,1 @@
+/* Em classes os metodos "get - set" são definidos similar aos da função "factory", ou seja, por não ter a nescessidade de se declarar os metodos da classe dentro do prototype do objeto podemos apenas colocar o operador "get - set" antes de qualquer metodo da classe ser declarado assim como e aplicado em "factory function" */

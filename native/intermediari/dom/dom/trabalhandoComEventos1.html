@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='UTF-8'>
+    <title>Trabalhando com Eventos #01</title>
+    <link rel='stylesheet' href='css/estilo.css'>
+</head>
+
+<body class="conteudo exercicio">
+    <div>
+        <a href="https://google.com.br" onclick="contagem(event)">via - html</a> 
+
+        <!-- estamos passando a função criada no "js" para dentro do evento "onclick" do html
+            Obs: o parametro da função dentro do html deve sempre receber o valor "event" caso contrario o evento não sera executado 
+            nesse caso estamos passando o evento diretamente no html, porem ha outras maneiras de se trabalhar com eventos 
+        -->
+    </div>
+    <div>
+        <a id="viaJS" href="https://google.com.br">via - js</a> 
+    </div>
+    
+    <script src="/intermediari/dom/event.js"></script>
+</body>
